@@ -1,0 +1,42 @@
+.header {
+    padding: 20px;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+
+.navigation {
+    max-width: 1280px;
+    margin: 0 auto;
+
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.link {
+    display: inline-block;
+    color: #242424;
+    font-size: 22px;
+    font-weight: 500;
+    transition: color 250ms linear;
+}
+
+.link::after {
+    content: "";
+    width: 0px;
+    height: 2px;
+    display: block;
+    background: darkred;
+    transition: width 250ms linear;
+}
+
+.link:hover::after {
+    width: 100%;
+}
+
+.link:hover {
+    color: darkred;
+}
+
+.active {
+    color: darkred;
+}

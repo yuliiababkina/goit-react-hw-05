@@ -1,0 +1,13 @@
+.movieDetailsPage {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.goBackBtn {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    margin-bottom: 12px;
+    color: inherit;
+}

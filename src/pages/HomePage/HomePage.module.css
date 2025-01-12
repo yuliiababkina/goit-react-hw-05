@@ -1,0 +1,10 @@
+.homePage {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.homeTitle {
+    font-size: 42px;
+    margin-bottom: 16px;
+}

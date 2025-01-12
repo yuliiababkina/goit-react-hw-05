@@ -1,0 +1,14 @@
+.reviewsList {
+    margin-top: 20px;
+    margin-left: 36px;
+}
+
+.reviewAuthor {
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.reviewItem:not(:last-child) {
+    margin-bottom: 10px;
+}
