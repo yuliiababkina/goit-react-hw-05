@@ -37,6 +37,7 @@
     align-items: center;
     gap: 12px;
     list-style-type: none;
+    padding: 0;
 }
 
 .additionalContent {
