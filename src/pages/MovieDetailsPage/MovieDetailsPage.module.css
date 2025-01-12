@@ -10,4 +10,10 @@
     gap: 4px;
     margin-bottom: 12px;
     color: inherit;
+    transition: color 250ms linear;
+}
+
+.goBackBtn:hover,
+.goBackBtn:focus {
+    color: darkred;
 }
